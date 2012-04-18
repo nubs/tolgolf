@@ -1,0 +1,1 @@
+<?=strtr(fread(STDIN,9e4),join(range(a,z)),'22233344455566677778889999');

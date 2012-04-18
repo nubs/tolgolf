@@ -1,0 +1,1 @@
+<?function f($n){if($n<1e3){$n++;print($n);f($n);}}f(-1);

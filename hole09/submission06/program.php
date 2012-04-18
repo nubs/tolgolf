@@ -1,0 +1,1 @@
+<?=decbin(hexdec(FF76ABBF));

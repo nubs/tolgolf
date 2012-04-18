@@ -1,0 +1,1 @@
+<?for(;$k[$x]=fgets(STDIN);$x++)$c[$x]=20;foreach($c as$p=>&$t){if(strstr($k[$p],i)||!$t+=5){foreach($c as$w=>&$e)$w!=$p?$b?$t+=$m=min(5,$e)and$e-=$m:$e+=$t/($x-1)%28:0;$b?$b=0:$b=1and$t=0;}}echo join("\n",$c);

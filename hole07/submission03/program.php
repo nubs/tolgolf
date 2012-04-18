@@ -1,0 +1,1 @@
+<?function p($s,$n,$v){if($n==1){if($v>0&&$v<=$s)return 1/$s;}$m=0;for($i=1;$i<=$v-1;$i++)$m+=p($s,1,$i)*p($s,$n-1,$v-$i);return$m;}$n=$argv[1];$s=$argv[2];for($i=$n;$i<=$n*$s;$i++)echo"$i = ".p($s,$n,$i)."\n";

@@ -1,0 +1,2 @@
+<?foreach($k=file('php://stdin')as$p=>$t){$r=&$c[$p];if($t{2}==i||!$r+=5){foreach($k as$w=>$e){$j=&$c[$w];$h||$j+=20;$w!=$p?$b?$r+=$m=min(5,$j)and$j-=$m:$j+=$r/(count($k)-1)%99:0;}$b=!$b and$r=0;$h++;}}echo join("
+",$c);

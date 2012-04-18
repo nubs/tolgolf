@@ -1,0 +1,2 @@
+<?for(;$a[]=fgets(STDIN);$t++)$b[]=20;foreach($b as$k=>&$l)if($a[$k][4]==k||!$l+=5){$m++;$i=(int)($l/($t-1));foreach($b as$j=>&$c)if($k!=$j)$c+=$m%2?$i+$l=0:-($i+0*$l+=$i=min(5,$c));}echo join("
+",$b);

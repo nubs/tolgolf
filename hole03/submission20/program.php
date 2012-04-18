@@ -1,0 +1,1 @@
+<?$f=fopen("php://stdin",r);while($l=trim(fgets($f))){$s=0;foreach(str_split($l)as$i)$s+=ord($i)-96;echo($s>50)?"higher than fifty\n":"lower than fifty\n";}

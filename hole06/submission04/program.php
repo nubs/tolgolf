@@ -1,0 +1,1 @@
+<?$r=fgets(STDIN);for($i=0,$l=strlen($r),$k=strlen($argv[2]);$i<$l;$i++){$c=ord($argv[2][$i%$k])-97;$q=ord($r[$i])-97;$q=$argv[1][0]=='e'?$q+$c:$q-$c;$q=$q<0?$q+26:$q;echo chr(97+$q%26);}

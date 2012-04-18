@@ -1,0 +1,1 @@
+<?=decbin(0xFF76ABBF);

@@ -1,0 +1,1 @@
+<?=join("\n",array_map(function($v){while(($k=ord($v[$i++]))>96)$s+=$k-96;return($s>50?"higher":"lower")." than fifty";},file('php://stdin')));

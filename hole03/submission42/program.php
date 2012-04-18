@@ -1,0 +1,1 @@
+<?$f=fopen('php://stdin','r');while($l=trim(fgets($f))){$s=0;for($i=0;$i<strlen($l);$i++){$s =$s+ord($l{$i})-ord('a')+1;}if($s>50){echo("higher than fifty\n");}else{echo("lower than fifty\n");}}

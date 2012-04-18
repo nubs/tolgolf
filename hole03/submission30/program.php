@@ -1,0 +1,1 @@
+<?$f=fopen('php://stdin',r);while($l=trim(fgets($f))){$s=0;for($i=0;$i<strlen($l);$i++){$s=$s+ord($l{$i})-98;echo$s>50?"high":"low";echo"er than fifty\n";}}

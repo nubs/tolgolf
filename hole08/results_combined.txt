@@ -1,0 +1,7 @@
+Passed 1041 sample
+Passed 234 submission02
+Passed 242 submission05
+Passed 259 submission01
+Passed 278 submission06
+Passed 288 submission04
+Passed 302 submission03

@@ -1,0 +1,1 @@
+<?while($n=ord(fgetc(STDIN))){if($n==10){$o="\n";}else{$n-=100;if($n<1){$o=2;}elseif($n<2){$o=3;}elseif($n<5){$o=4;}elseif($n<8){$o=5;}elseif($n<11){$o=6;}elseif($n<14){$o=7;}elseif($n<17){$o=8;}else{$o=9;}}echo $o;};

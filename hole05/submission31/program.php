@@ -1,0 +1,1 @@
+<?$r=file('php://stdin');$c=array_fill(0,count($r),20);  $b=1;foreach($r as$i=>$q){if(trim($q)== 'trick'||!$c[$i]+=5){if ($b){$n=floor($c[$i]/(count($c)-1));$c[$i]=0;foreach($c as$j=>$h){if($i!=$j)$c[$j] += $n;}$b=0;}else{foreach($c as$j=>$h){if($i!=$j){$t=min(5,$h);$c[$j]-=$t;$c[$i]+=$t;}}$b=1;}}}echo join("\n",$c);

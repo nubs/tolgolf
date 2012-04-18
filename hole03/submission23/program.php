@@ -1,0 +1,1 @@
+<?$a=file('php://stdin');foreach($a as$l){$s=0;for($i=0;$i<strlen(trim($l));$i++){$s=$s+ord($l{$i})-ord('a')+1;}echo($s>50?"higher":"lower")." than fifty\n";};

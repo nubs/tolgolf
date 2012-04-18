@@ -1,0 +1,1 @@
+<?$f=file('php://stdin');foreach($f as$k){$c=str_split(trim($k));foreach($c as$b){$s+=ord($b)-96;}$p="er than fifty\n";echo$s>50?"high$p":"low$p";$s=0;}

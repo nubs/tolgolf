@@ -1,0 +1,1 @@
+<?$l=strlen($s=trim(fread(STDIN,9e4)));$k=substr(str_repeat($argv[2],$l),0,$l);$p=$argv[1][0]==d?-1:+1;for($i=0;$i<$l;$i++)echo chr((($q=ord($s[$i])%97+$p*ord($k[$i])%97)>26||$q<0?$q+-$p*26:$q)+97);

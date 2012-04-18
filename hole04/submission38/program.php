@@ -1,0 +1,1 @@
+<?$a="abcXdefXghiXjklXmnoXpqrstuvXwxyz";while($n=fgetc(STDIN)){if($n!="\n"){echo floor(strpos($a,$n)/4)+2;} else {echo $n;}}

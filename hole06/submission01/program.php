@@ -1,0 +1,1 @@
+<?$k=substr(str_repeat($argv[2],$o=strlen($m=fgets(STDIN))),0,$o);for(;$i<$o,$y=ord($k{$i});)echo chr((ord($m{$i++})+7+($argv[1]{0}==e?7+$y:19-$y))%26+97);

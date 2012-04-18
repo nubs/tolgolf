@@ -1,0 +1,1 @@
+<?$r=file('php://stdin');$a=array_fill(0,count($r),20);$t=1;foreach($r as$i=>$q)if(trim($q)=='trick')if($t){$u=floor($a[$i]/(count($a)-1));$a[$i]=0;foreach($a as$j=>$c)if($i!=$j)$a[$j]+=$u;$t=0;}else{foreach($a as$j=>$c){if($i!=$j)$m=min(5,$c);$a[$j]-=$m;$a[$i]+=$m;}$t=1;}else$a[$i]+=5;foreach($a as$c)echo"$c\n";

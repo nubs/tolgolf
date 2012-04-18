@@ -1,0 +1,4 @@
+beta: 87
+gamma: 135
+delta: 166
+alpha: 300

@@ -1,0 +1,1 @@
+<?$k=file('php://stdin');foreach($k as$p=>$t){$r=&$c[$p];if(strstr($t,i)||!$r+=5){foreach($k as$w=>$e){$j=&$c[$w];$h?0:$j+=20;$w!=$p?$b?$r+=$m=min(5,$j)and$j-=$m:$j+=floor($r/(count($k)-1)):0;}$b?$b=0:$b=1and$r=0;$h=1;}}echo join("\n",$c);

@@ -1,0 +1,1 @@
+<?$k=$argv[2];for(;$g=ord(fgetc(STDIN));){$d=ord($k{$i++%strlen($k)});if($argv[1][0]==e)($c=$g+$d-97)>122?$c-=26:0;else($c=$g-$d+97)<97?$c+=26:0;echo chr($c);}

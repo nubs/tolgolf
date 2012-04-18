@@ -1,0 +1,2 @@
+<?for(;$f[]=fgets(STDIN);$n++)$c[]=20;foreach($c as$i=>&$e)if($f[$i]{2}==i||!$e+=5){$k=$b++%2*$e;foreach($c as$j=>&$d)if($i-$j&&!($b%2&&$d+=$e/($n-1)%99)){$d-=$t=min(5,$d);$k+=$t;}$e=$k;}echo join('
+',$c);

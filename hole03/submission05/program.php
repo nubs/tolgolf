@@ -1,0 +1,1 @@
+<?$f=fopen('php://stdin','r');$y=" than fifty\n";while(!feof($f))if(array_sum(str_replace(range(a,z),range(1,26),str_split($o.fgets($f))))>50)echo"higher$y";else echo"lower$y";

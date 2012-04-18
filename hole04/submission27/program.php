@@ -1,0 +1,1 @@
+<?while(1)echo str_replace(range(a,z),str_split('22233344455566677778889999'),fgets(STDIN));

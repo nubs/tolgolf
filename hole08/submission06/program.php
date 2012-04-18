@@ -1,0 +1,2 @@
+<?while($g=fgets(STDIN)){$g=split(' ',$g);for($t=$a=$v=$u="".$w=0;$r=$g[++$u];asort($p))for($x=0;$b=$r[$x++];$p[$g[0]]+=($a[$w-1]+$t[$w-2]+$t[$w-1])*$c+$v=$c+!++$w)if($c=($b==X)*10)$t[$w]=$u<10;elseif($b=='/'&&$c=10-$v)$a[$w]=$u<10;else$c=$b;}foreach($p as$n=>$s)echo "$n: $s
+";

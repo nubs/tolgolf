@@ -1,0 +1,1 @@
+<?$p="er than fifty\n";while($n=ord(fgetc(STDIN))){$s+=$n-96;if($n==10){echo$s+86>50?"high$p":"low$p";$s=0;}}

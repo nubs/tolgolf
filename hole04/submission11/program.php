@@ -1,0 +1,1 @@
+<?=str_replace(range(a,z),str_split('22233344455566677778889999'),fread(STDIN,9e4));

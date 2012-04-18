@@ -1,0 +1,1 @@
+<?$a=Array('abc','def','ghi','jkl','mno','pqrs','tuv','wxyz');while($n=fgetc(STDIN))$o=array_keys($a,$n);($n=="\n" ? $n : $o[0]+2)};
